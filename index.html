@@ -8,3 +8,35 @@
     <link rel="stylesheet"  href="styles.css"
 </head>
 <body> 
+    <h1> Event Registration</h1>
+    <form id="'registrationform"
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required><br> 
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br>
+
+    <label for="eventDate">Event Date:</label>
+    <select id="eventDate" name="eventDate"required>
+        <option value="2024-08-02">August 8, 2024</option>
+        <option value="2024-08-14">August 14, 2024</option>
+        <option value="2024-08-20"> August 20, 2024</option>
+    </select><br>
+
+    <fieldset>
+        <legend>Meal Preference:</legend>
+        <label><input type="checkbox" name="preference" value="vegetarian">vegetarian</label>
+        <label><input type="checkbox" name="preference" value="non-vegetarian">non-vegetarian</label>
+        <label><input type="checkbox" name="preference" value="vegan">vegan</label>
+    </fieldset><br>
+    <button type="submit">Submit</button>
+</form>
+
+<div= id="registationDetails">
+
+</div>
+
+<script src="script.js"></script>
+ 
+</body>
+</html>
