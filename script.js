@@ -1,3 +1,4 @@
+Sonoma Stea
 U05721483
 document.addEventListener('DOMContentLoaded', function () {
     const form = document.getElementById('registrationForm');
